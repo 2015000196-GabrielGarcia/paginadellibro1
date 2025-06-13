@@ -1,0 +1,61 @@
+/* Estilo para el formulario */
+#formulario {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para etiquetas */
+#label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para inputs */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="color"],
+input[type="datetime-local"] {
+    margin-bottom: 10px;
+}
+
+/* Estilo para botones */
+input[type="submit"],
+input[type="reset"] {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para checkboxes y radios */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilo para agrupar campos */
+.form-group {
+    margin-bottom: 15px;
+}
